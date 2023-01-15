@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+header{
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0px;
+    z-index: 99;
+}
+
+
+.nav {
+
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    align-items: center;
+    background: #fff;
+
+    // .nav__logo--container
+
+    &__logo--container {
+    }
+
+    // .nav__logo
+
+    &__logo {
+        font-size: 40px;
+    }
+
+    // .nav__menu--container
+
+    &__menu--container {
+    }
+
+    // .nav__menu
+
+    &__menu {
+ 
+        display: flex;
+        list-style: none;
+        column-gap: 40px;
+        
+    }
+
+    // .nav__list
+
+    &__list {
+    }
+
+    // .nav__link
+
+    &__link {
+        text-decoration: none;
+        font-size: 20px;
+        color: #000;
+    }
+}
+.contact {
+    width: 100%;
+    padding-top: 100px;
+    margin-top: 80px;
+
+
+    // .contact__head--container
+
+    &__head--container {
+        width: 40%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    // .contact__title
+
+    &__title {
+        font-size: 65px;
+        color: #E6382AFF;
+        
+    }
+
+    // .contact__subtitle--container
+
+    &__subtitle--container {
+        width: 100%;
+    }
+
+    // .contact__subtitle
+
+    &__subtitle {
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+.info {
+    padding-top: 100px;
+    width: 70%;
+    padding-bottom: 70px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    
+
+    // .info__menu
+
+    &__menu {
+        list-style: none;
+    }
+
+    // .info__head
+
+    &__head {
+        margin-bottom: 30px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    // .info__list
+
+    &__list {
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+.map {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding-bottom: 70px;
+    column-gap: 25px;
+
+    // .map__container
+
+    &__container {
+        width: 48%;
+
+    }
+
+    // .map__image--container
+
+    &__image--container {
+        width: 48%;
+        height: 500px;
+    }
+
+    // .map__image
+
+    &__image {
+        width: 100%;
+        object-fit: cover;
+        height: 500px;
+    }
+}
+
+
